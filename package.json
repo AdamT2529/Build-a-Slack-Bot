@@ -1,0 +1,26 @@
+{
+  "name": "make-a-slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@slack/bolt": "^4.7.3",
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamT2529/Build-a-Slack-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdamT2529/Build-a-Slack-Bot/issues"
+  },
+  "homepage": "https://github.com/AdamT2529/Build-a-Slack-Bot#readme"
+}
