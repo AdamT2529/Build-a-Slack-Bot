@@ -1,31 +1,17 @@
-Slack bot running on Nest server with 6 different commands
-Name
+# Slack bot running on Nest server with 6 different commands
 
-Description
+## Commands
+/adam-ping - Pings the bot
 
-/adam-ping
+/adam-help - Provides help
 
-Pings the bot
+/adam-catfact - Provides cat fact
 
-/adam-help
+/adam-joke - Provides a joke
 
-Provides help
+/adam-color - Porivde's Adam's favorite color
 
-/adam-catfact
+/adam-sport - Provides Adam's favorite sport
 
-Provides cat fact
-
-/adam-joke
-
-Provides a joke
-
-/adam-color
-
-Porivde's Adam's favorite color
-
-/adam-sport
-
-Provides Adam's favorite sport
-
-
+### AI Usage
 Used AI to provide commands to reset previous git commits because env was still showing and leaked the tokens to the public and guide through fixing with git commands of bot not activating
