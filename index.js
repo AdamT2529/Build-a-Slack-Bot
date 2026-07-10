@@ -42,12 +42,12 @@ app.command("/adam-joke", async ({ command, ack, respond }) => {
   await ack();
 
   try {
-    const response = await axios.get("https://official-joke-api.appspot.com/random_joke");
+    const responded = await axios.get("https://official-joke-api.appspot.com/random_joke");
     await respond({
       text:
-`${response.data.setup}
+`${responded.data.setup}
 
-${response.data.punchline}`
+${responded.data.punchline}`
     });
   } catch (err) {
     await respond({ text: "Failed to fetch a joke." });
