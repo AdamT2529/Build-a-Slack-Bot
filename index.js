@@ -37,29 +37,3 @@ app.command("/adam-catfact", async ({ command, ack, respond }) => {
     await respond({ text: "Failed to fetch a cat fact." });
   }
 });
-
-app.command("/adam-joke", async ({ command, ack, respond }) => {
-  await ack();
-
-  try {
-    const responded = await axios.get("https://official-joke-api.appspot.com/random_joke");
-    await respond({
-      text:
-`${responded.data.setup}
-
-${responded.data.punchline}`
-    });
-  } catch (err) {
-    await respond({ text: "Failed to fetch a joke." });
-  }
-});
-app.command("/adam-color", async ({ command, ack, respond }) => {
-  await ack();
-  await respond({text: "Adam's favorite color is blue"
-  });
-});
-app.command("/adam-sport", async ({ command, ack, respond }) => {
-  await ack();
-  await respond({text: "Adam's favorite sport is track & field specifically discus"
-  });
-});
