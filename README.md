@@ -1,4 +1,4 @@
-# Slack bot running on Nest server with 6 different commands
+# Slack bot running on Nest server with 3 different commands
 
 ## Commands
 /adam-ping - Pings the bot
